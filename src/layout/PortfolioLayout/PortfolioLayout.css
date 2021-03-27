@@ -1,0 +1,221 @@
+/*
+ * File: SpaceForceLayout.scss
+ * Version: 0.1.0
+ * Project: react-test
+ * Description: Space Force Layout scss file
+ * File Created: Saturday, 9th February 2021 11:01 am
+ * Author: Justin Jeffrey (justin.jeffrey@siliconmtn.com)
+ * -----
+ * Last Modified: Wed Mar 10 2021
+ * Modified By: Justin Jeffrey
+ * -----
+ * Copyright 2021, Silicon Mountain Technologies, Inc.
+ */
+
+/** FONT IMPORTS **/
+
+@font-face {
+    font-family: "CaviarDreams";
+    src: local("CaviarDreams"), url("./Fonts/CaviarDreams.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Murden";
+    src: local("MurdenCFExtraBold-Regular"), url("./Fonts/MurdenCFExtraBold-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "LouisGeorgeCafe";
+    src: local("LouisGeorgeCafe"), url("./Fonts/LouisGeorgeCafe.ttf") format("truetype");
+    font-weight: normal;
+}
+
+/** FONT PRESETS **/
+
+h1 {
+    font-family: CaviarDreams;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: Murden;
+    font-size: 34px;
+}
+
+h3 {
+    font-family: Murden;
+    font-size: 24px;
+}
+
+h4 {
+    font-family: Murden;
+    font-size: 20px;
+}
+
+p {
+    font-family: LouisGeorgeCafe;
+    font-size: 16px;
+}
+
+body {
+    font-family: LouisGeorgeCafe;
+    font-size: 14px;
+}
+
+/** Colors **/
+
+/* Theme */
+.background-theme-light {
+    background-color: rgb(255,189,191);
+}
+
+.background-theme-main {
+    background-color: rgb(255,244,241);
+}
+
+.text-theme-main {
+    color: black;
+}
+
+.background-theme-dark {
+    background-color: rgb(52,54,67);
+}
+
+.text-theme-dark {
+    color: rgb(255,244,241);
+}
+
+/* Greys */
+.background-main {
+    background-color: #FFFFFF;
+}
+
+.background-secondary {
+    background-color: #F5F5F5;
+}
+
+.background-light-grey {
+    background-color: #EEEEEE;
+}
+
+.background-medium-grey {
+    background-color: #B5B5B5;
+}
+
+.outline-medium-grey {
+    border: solid 3px #B5B5B5;
+}
+
+.background-dark-grey {
+    background-color: #616161;
+}
+
+.text-dark-grey {
+    color: #616161;
+}
+
+/* Message Colors */
+
+.background-success {
+    background-color: #4CAF50;
+}
+
+.text-success {
+    color: #4CAF50;
+}
+
+.background-error {
+    background-color: #D32F2F;
+}
+
+.text-error {
+    color: #D32F2F !important;
+}
+
+.background-info {
+    background-color: #2196F3;
+}
+
+.text-info {
+    color: #2196F3;
+}
+
+/* Template Colors */
+.orange {
+    background-color: #FF9800;
+}
+
+.green {
+    background-color: #0A8043;
+}
+
+.light-blue {
+    background-color: #039BE5;
+}
+
+.dark-blue {
+    background-color: #3F51B5;
+}
+
+.purple {
+    background-color: #8E24AA;
+}
+
+.brown {
+    background-color: #775333;
+}
+
+.red {
+    background-color: #F4511E;
+}
+
+/** THEME CSS **/
+
+.nav-link {
+    
+    color: rgb(255,244,241) !important;
+}
+
+.nav-text:hover {
+    color: rgb(252,177,22);
+    text-decoration: underline;
+}
+
+.mobile-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-menu > .nav-link > .nav-icon > .nav-icon-svg {
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.logo {
+    height: 35px;
+}
+
+.mobile-header-center-header-element-0 {
+    text-align: center;
+}
+
+.question-input-wrapper {
+    max-width: 300px;
+}
+
+.MuiPaper-elevation4 {
+    box-shadow: none !important;
+}
+
+.MuiButton-contained {
+    box-shadow: none !important;
+}
+
+.resubmit-button {
+	margin-top: 20px !important;
+}
+
+.select-alt-field {
+	margin-top: 5px !important;
+}
