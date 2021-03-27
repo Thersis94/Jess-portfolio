@@ -72,7 +72,7 @@ class Portfolio extends React.Component {
             // Bootstrap for the Mobile and Desktop footer content wrappers
             bootstrap: {
                 mobile: "mobile-footer fixed-bottom d-md-none d-flex background-theme-dark justify-content-between",
-                desktop: ""
+                desktop: "desktop-footer background-theme-dark justify-content-between"
             },
             // Bootstrap and content to be injected in to the footer left
             left: {
@@ -141,7 +141,7 @@ class Portfolio extends React.Component {
                 {this.props.children}
 
                 {/* Footer Sections */}
-                <Container fluid>
+                <Container fluid className="">
                     {/* Desktop Footer */}
                     <Footer
                         bootstrap={this.footer.bootstrap.desktop}

@@ -63,6 +63,10 @@ body {
     font-size: 14px;
 }
 
+.murden {
+    font-family: Murden;
+}
+
 /** Colors **/
 
 /* Theme */
@@ -173,7 +177,7 @@ body {
 /** THEME CSS **/
 
 .nav-link {
-    
+
     color: rgb(255,244,241) !important;
 }
 
@@ -218,4 +222,8 @@ body {
 
 .select-alt-field {
 	margin-top: 5px !important;
+}
+
+.text-center {
+    text-align: center;
 }

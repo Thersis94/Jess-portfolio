@@ -24,7 +24,7 @@ class OneColumn extends React.Component {
      */
     render() {
         return (
-            <Container className="single-column-container mb-5 mt-5">
+            <Container className="single-column-container">
                 <Row>
                     <Col className="col-12 mb-5">
                         {this.props.column}

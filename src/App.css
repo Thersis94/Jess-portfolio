@@ -12,13 +12,80 @@
 
 .landing-page-background {
   background-image: url('./assets/Background2.svg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
-  height: 100vh;
-  width: 100vw;
 }
 
 .personal-statement-wrapper {
   width: 90vw;
   text-align: center;
+}
+
+.subtitle-background {
+  background-color: rgb(255,255,255, .8);
+}
+
+.curve {
+	height: auto;
+	border-radius: 50%;
+	shape-outside:circle();
+}
+
+.landing-text-content {
+  font-size: 18px;
+}
+
+.ig-link {
+  height: 50px;
+  width: 50px;
+  background-image: url('./assets/instagram.svg');
+  background-size: cover;
+}
+
+.ig-link:hover {
+  height: 50px;
+  width: 50px;
+  background-image: url('./assets/instagram-hov.svg');
+  background-size: cover;
+}
+
+.linkedin-link {
+  color: rgb(255,244,241);
+  height: 50px;
+  width: 50px;
+  background-image: url('./assets/linkedin.svg');
+  background-size: cover;
+}
+
+.linkedin-link:hover {
+  color: rgb(255,244,241);
+  height: 47px;
+  width: 47px;
+  background-image: url('./assets/linkedin-hov.svg');
+  background-size: cover;
+}
+
+.menu-icon {
+  height: 50px;
+  width: 50px;
+  background-image: url('./assets/menu.svg');
+  background-size: cover;
+}
+
+.menu-icon:hover {
+  height: 47px;
+  width: 47px;
+  background-image: url('./assets/menu-hov.svg');
+  background-size: cover;
+}
+
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.dropdown-toggle.nav-link {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	float: right;
+	padding-right: 3rem;
 }
