@@ -1,6 +1,5 @@
 import LandingPage from '../page/LandingPage';
 import ErrorPage from '../page/ErrorPage';
-import AboutMePage from '../page/AboutMePage';
 import WorkPage from '../page/WorkPage';
 import CVPage from '../page/CVPage';
 
@@ -9,11 +8,6 @@ export default {
         {
             path: "/",
             src: <LandingPage />,
-            roles: ["*"]
-        },
-        {
-            path: "/about",
-            src: <AboutMePage />,
             roles: ["*"]
         },
         {

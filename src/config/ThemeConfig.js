@@ -1,16 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import MenuFactory from '../components/MenuFactory/MenuFactory';
-import IGIcon from '../assets/instagram.svg';
 
 const Routes = {
     publicRouteData: {
-        AboutMe: {
-            text: "About Me",
-            icon: null,
-            link: "/about",
-            children: [],
-        },
         MyWork: {
             text: "My Work",
             icon: null,

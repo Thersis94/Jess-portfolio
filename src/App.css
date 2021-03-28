@@ -21,12 +21,18 @@
   text-align: center;
 }
 
+.raising-innovation-wrapper {
+  width: 90vw;
+  text-align: center;
+}
+
 .subtitle-background {
   background-color: rgb(255,255,255, .8);
 }
 
 .curve {
 	height: auto;
+  width: auto;
 	border-radius: 50%;
 	shape-outside:circle();
 }
@@ -88,4 +94,74 @@
 	padding-bottom: 3rem;
 	float: right;
 	padding-right: 3rem;
+}
+
+.ox {
+  max-width: 40vw;
+}
+
+.ox-flex-box {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.innovation-experience-top {
+  font-size: 25px;
+}
+
+.innovation-experience-bottom {
+  font-size: 25px;
+}
+
+.circle-seperator {
+	background-image: url('./assets/dot-break.svg');
+	background-size: auto;
+	width: 70%;
+	height: 100%;
+	background-repeat: no-repeat;
+	display: flex;
+}
+
+.circle-seporator-wrapper {
+	height: 10vw;
+	display: flex;
+	justify-content: center;
+}
+
+.ox-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.personal-statement-header {
+  font-size: 4rem;
+}
+
+.personal-statement-header {
+  font-size: 4rem;
+}
+
+.slider {
+	height: auto;
+	width: 90vw;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.slider-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.my-work-page-wrapper {
+	background-color: rgb(52,54,67);
+}
+
+.footer-center {
+	margin: auto;
+}
+
+.footer-right {
+	margin: auto;
 }
