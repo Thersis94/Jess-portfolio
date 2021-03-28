@@ -16,6 +16,12 @@
   background-size: cover;
 }
 
+.cv-page-background {
+  background-image: url('./assets/Background.svg');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
 .personal-statement-wrapper {
   width: 90vw;
   text-align: center;

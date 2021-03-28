@@ -9,14 +9,6 @@ import Col from 'react-bootstrap/Col';
 class OneColumn extends React.Component {
 
     /**
-     * Creates an instance of the OneColumn class
-     * @param {*} props - Props passed to this component
-     */
-    constructor(props) {
-        super(props);
-    }
-
-    /**
      * Returns a OneColumn component
      *
      * @returns {*} - JSX return

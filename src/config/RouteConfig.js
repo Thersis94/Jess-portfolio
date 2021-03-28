@@ -3,7 +3,7 @@ import ErrorPage from '../page/ErrorPage';
 import WorkPage from '../page/WorkPage';
 import CVPage from '../page/CVPage';
 
-export default {
+const routes = {
     pages: [
         {
             path: "/",
@@ -26,3 +26,5 @@ export default {
         src: <ErrorPage />
     }
 }
+
+export default routes;

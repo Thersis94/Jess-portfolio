@@ -5,12 +5,14 @@ import MenuFactory from '../components/MenuFactory/MenuFactory';
 const Routes = {
     publicRouteData: {
         MyWork: {
+            name: "work",
             text: "My Work",
             icon: null,
             link: "/work",
             children: [],
         },
         Education: {
+            name: "education",
             text: "Education",
             icon: null,
             link: "/education",
@@ -39,8 +41,8 @@ const ThemeConfig = {
     },
     footer: {
         left: {
-            mobile: <div className="row py-5 ml-3"><Link className="mx-3 mb-3 mb-sm-0"><div className="ig-link"></div></Link><Link className="mx-3"><div className="linkedin-link"></div></Link></div>,
-            desktop: <div className="row py-5"><Link className="mx-3"><div className="ig-link"></div></Link><Link className="mx-3"><div className="linkedin-link"></div></Link></div>
+            mobile: <div className="row py-5 ml-3"><a href="https://www.instagram.com/jbangsss/" target="_blank" rel="noreferrer" className="mx-3 mb-3 mb-sm-0"><div className="ig-link"></div></a><a href="https://www.linkedin.com/in/jessica-bangs-a574a7105/" target="_blank" rel="noreferrer" className="mx-3"><div className="linkedin-link"></div></a></div>,
+            desktop: <div className="row py-5"><a href="https://www.instagram.com/jbangsss/" target="_blank" rel="noreferrer" className="mx-3"><div className="ig-link"></div></a><a href="https://www.linkedin.com/in/jessica-bangs-a574a7105/" target="_blank" rel="noreferrer" className="mx-3"><div className="linkedin-link"></div></a></div>
         },
         center: {
             mobile: <Link to="/" className="top-left-name-link"><h1 className="text-center top-left-name text-theme-dark py-3">Jessica Bangs</h1></Link>,

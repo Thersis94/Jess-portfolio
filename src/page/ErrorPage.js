@@ -3,11 +3,7 @@ import PortfolioLayout from '../layout/PortfolioLayout/PortfolioLayout';
 import { ThemeConfig } from '../config/ThemeConfig';
 
 class ErrorPage extends React.Component {
-
-    constructor() {
-        super();
-    }
-
+    
     render() {
         return (
             <PortfolioLayout ThemeConfig={ThemeConfig}>

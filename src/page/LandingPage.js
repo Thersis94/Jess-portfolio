@@ -8,10 +8,6 @@ import OX from '../assets/ox.png';
 
 class LandingPage extends React.Component {
 
-    constructor() {
-        super();
-    }
-
     render() {
         return (
             <PortfolioLayout ThemeConfig={ThemeConfig}>

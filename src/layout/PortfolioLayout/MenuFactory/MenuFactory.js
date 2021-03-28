@@ -65,7 +65,7 @@ MenuFactory.defaultProps = {
 MenuFactory.propTypes = {
     text: PropTypes.bool,
     icon: PropTypes.bool,
-    name: PropTypes.string.isRequired,
+    name: PropTypes.any.isRequired,
     dropdown: PropTypes.bool
 };
 

@@ -2,7 +2,6 @@ import React from 'react';
 import PortfolioLayout from '../layout/PortfolioLayout/PortfolioLayout';
 import { ThemeConfig } from '../config/ThemeConfig';
 import Slider from "react-slick";
-import OneColumn from '../layout/PortfolioLayout/PortfolioContentLayouts/OneColumn';
 
 class WorkPage extends React.Component {
 
@@ -16,17 +15,16 @@ class WorkPage extends React.Component {
     importAll(r) {
         let imageCollection = [];
         let images = {};
-        r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+        r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); return ""; });
+        let count = 0;
         for (let key in images) {
             if (images.hasOwnProperty(key)) {
-                imageCollection.push(<img src={images[key].default} />);
+                imageCollection.push(<img alt="" key={count} src={images[key].default} />);
+                count++;
             }
         }
         return imageCollection;
     }
-
-
-
 
     render() {
         const settings = {
